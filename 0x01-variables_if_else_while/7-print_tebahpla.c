@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -Entry point
+ * main - Entry point
  *
  * Description: prints the lowercase alphabet in reverse
  *              using the putchar function.
@@ -10,7 +10,7 @@
 int main(void)
 {
 char letter = 'z';
-while letter >= 'a')
+while (letter >= 'a')
 {
 putchar(letter);
 letter--;
