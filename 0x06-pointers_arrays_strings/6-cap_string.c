@@ -28,9 +28,9 @@ if (a[j] == *(str + i - 1))
 *(str + i) = *(str + i) -32;
 }
 }
+}
+}
 i++;
-}
-}
 }
 return (str);
 }
