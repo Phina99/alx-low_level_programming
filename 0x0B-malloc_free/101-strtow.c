@@ -1,15 +1,3 @@
-#include <stdlib.h>
-#include "main.h"
-
-/**
- * count_word - helper function to coun the number of words in a string
- * @s: string to evaluate
- *
- * Return: number of words
- */
-int count_word(char *s)
-{
-int flag, i, j, w;
 i = j = flag = 0;
 while (str[i])
 {
@@ -43,8 +31,6 @@ create_word(words, str, start, i, j);
  */
 void create_word(char **words, char *str, int start, int end, int index)
 {
-int i, j;
-
 i = end - start;
 words[index] = (char *)malloc(sizeof(char) * (i + 1));
 
